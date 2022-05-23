@@ -11,7 +11,7 @@
     "website": "https://github.com/Gishankrishka2/MultiPm",
     "success_url": "https://github.com/Gishankrishka2/MultiPm",
     "env": {
-        "BOT_TOKEN": {
+        "DATABASE": {
             "description": "",
             "required": "True"
         }
