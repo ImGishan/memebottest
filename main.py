@@ -468,7 +468,7 @@ async def replay_media(bot, message):
         await bot.copy_message(
             chat_id=int(reference_id),
             from_chat_id=message.chat.id,
-            message_id=message.message_id
+            message_id=message.message.id
         )          
          
 @Client.on_inline_query()
